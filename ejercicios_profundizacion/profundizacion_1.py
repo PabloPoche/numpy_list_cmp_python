@@ -13,6 +13,8 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 '''
+import random
+
 Enunciado:
 Empecemos a jugar con las listas y su métodos, el objetivo
 es realizar el código lo más simple, ordenado y limpio posible,
@@ -32,5 +34,12 @@ if __name__ == '__main__':
     print('Comenzamos a divertirnos!')
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
-
+   
+    numeros = [random.randint(1, 10) for x in range(3)]
+    if sum(numeros) <= 21 :
+        print(sum(numeros))
+    else:
+        print("Perdio")
+        
+    
     print("terminamos")
