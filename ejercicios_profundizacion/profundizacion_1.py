@@ -13,7 +13,6 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 '''
-
 Enunciado:
 Empecemos a jugar con las listas y su métodos, el objetivo
 es realizar el código lo más simple, ordenado y limpio posible,
