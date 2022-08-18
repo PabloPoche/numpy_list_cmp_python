@@ -13,7 +13,6 @@
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
 '''
-import random
 
 Enunciado:
 Empecemos a jugar con las listas y su métodos, el objetivo
@@ -30,6 +29,8 @@ que ya dispongamos de Python. El objetivo es:
     b) Si el número es mayor a 21 se debe informar al usuario que perdio
 '''
 
+import random
+
 if __name__ == '__main__':
     print('Comenzamos a divertirnos!')
     # A partir de aquí escriba el código que resuelve el enunciado
@@ -40,6 +41,5 @@ if __name__ == '__main__':
         print(sum(numeros))
     else:
         print("Perdio")
-        
     
     print("terminamos")
